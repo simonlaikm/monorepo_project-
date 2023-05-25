@@ -1,0 +1,14 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '6.6.1',
+0 silly argv   '$0': 'lerna',
+0 silly argv   name: 'graphql-types'
+0 silly argv }
+1 notice cli v6.6.1
+2 verbose rootPath /home/simon/ngsocial
+3 error Error: Command failed with exit code 1: git config --get user.name
+3 error     at makeError (/home/simon/.nvm/versions/node/v20.0.0/lib/node_modules/lerna/node_modules/execa/lib/error.js:59:11)
+3 error     at module.exports.sync (/home/simon/.nvm/versions/node/v20.0.0/lib/node_modules/lerna/node_modules/execa/index.js:186:17)
+3 error     at Object.execSync (/home/simon/.nvm/versions/node/v20.0.0/lib/node_modules/lerna/node_modules/@lerna/create/dist/command.js:58:21)
+3 error     at CreateCommand.gitConfig (/home/simon/.nvm/versions/node/v20.0.0/lib/node_modules/lerna/node_modules/@lerna/create/dist/command.js:3466:31)
+3 error     at CreateCommand.initialize (/home/simon/.nvm/versions/node/v20.0.0/lib/node_modules/lerna/node_modules/@lerna/create/dist/command.js:3394:50)
